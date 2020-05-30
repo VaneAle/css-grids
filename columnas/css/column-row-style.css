@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+}
+
+.container{
+  display: grid;
+  /* grid-template-columns: 25% 200px 25%; */
+  grid-template: 300px 100px 100px / 50% 200px 100px; 
+  }
+
+.item {
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid red;
+}
+.item:nth-of-type(4) {
+  background: blue;
+  overflow: auto;
+
+}
+
+.item .item {
+  background: yellow;
+}
